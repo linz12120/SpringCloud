@@ -7,6 +7,9 @@ eureka:
 spring:
   application:
     name: gamesdk-zuul
+  rabbitmq:
+    host: localhost
+    port: 5672
 #zuul:
 #  routes:
 #    login:
