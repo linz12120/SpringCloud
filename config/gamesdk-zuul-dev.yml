@@ -1,0 +1,21 @@
+server:
+  port: 9555
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9527/eureka/
+spring:
+  application:
+    name: gamesdk-zuul
+#zuul:
+#  routes:
+#    login:
+#      path: /gamesdk/login/**
+#      service-id: LOGIN
+#    pay:
+#      path: /gamesdk/pay/**
+#      service-id: PAY
+zuul:
+  routes:
+    login: /gamesdk-login/**
+    pay: /gamesdk-pay/**
