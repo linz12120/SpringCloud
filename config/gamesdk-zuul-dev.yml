@@ -20,9 +20,9 @@ spring:
 #    pay:
 #      path: /gamesdk/pay/**
 #      service-id: PAY
-#zuul:
-  #routes:
-    #gamesdk-login: /gamesdk-login/**
+zuul:
+  routes:
+    gamesdk-login: /gamesdk-login/**
     #gamesdk-pay: /gamesdk-pay/**
 management:
   endpoints:
