@@ -23,7 +23,7 @@ spring:
 zuul:
   routes:
     gamesdk-login: /gamesdk-login/**
-    #gamesdk-pay: /gamesdk-pay/**
+    gamesdk-pay: /gamesdk-pay/**
 management:
   endpoints:
     web:
