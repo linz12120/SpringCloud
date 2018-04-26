@@ -19,7 +19,7 @@ spring:
 #      service-id: LOGIN
 #    pay:
 #      path: /gamesdk/pay/**
-#      service-id: PAY
+#      service-id: PAY 
 zuul:
   routes:
     #gamesdk-login: /gamesdk-login/**
