@@ -22,10 +22,11 @@ spring:
 #      service-id: PAY
 zuul:
   routes:
-    #gamesdk-login: /gamesdk-login/**
+    gamesdk-login: /gamesdk-login/**
     gamesdk-pay: /gamesdk-pay/**
 management:
   endpoints:
     web:
       exposure:
         include: bus-refresh
+		
